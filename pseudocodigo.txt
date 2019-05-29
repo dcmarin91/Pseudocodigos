@@ -1,0 +1,61 @@
+*****ejercicio1*****
+repeatedChars(str1,str2)
+strnuevo
+cont=0
+ for each char in str1
+  for each char in str2
+   if char de str1== char de str2
+     cont++
+   if cont>0
+    strnuevo push char
+    eliminar char2
+return strnuevo
+*****fin_ejercicio1*****
+
+*****ejercicio2*****
+findlongestwordlength(str)
+convertir string a un array de palabras
+longest=0
+ for each str del array
+  longest=array[i].length
+   if array[i+1].length>longest
+    longest=array[i+1].length
+return longest
+*****fin_ejercicio2*****
+
+*****ejercicio3*****
+sort(array)
+for each char del array
+ for each char del array
+  if array[i]>array[i+1]
+	aux=array[i]
+	array[i]=array[i+1]
+	array[i+1]=aux
+ return array
+*****fin_ejercicio3*****
+
+*****ejercicio4*****
+anagram(str1,str2)
+for each char of str1
+ for each char of str2
+  if char1=char2
+  delete char1
+ if str1.length=0
+retorna true
+else retorna false
+*****fin_ejercicio4*****
+
+*****ejercicio5*****
+tictactoe(matrix)
+for each fila of matrix
+ if fila[i][0]==fila[i][1]&&fila[i][0]==fila[2]
+  retorna true
+for each columna of matrix
+ if columna[i][0]==columna[i][1]&&columna[i][0]==columna[i][2]
+ retorna true
+if matrix[0][0]==matrix[1][1]&&matrix[0][0]==matrix[2][2]
+ retorna true
+if matrix[0][2]==matrix[1][1]&&matrix[0][2]matrix[2][0]
+ retorna true
+
+
